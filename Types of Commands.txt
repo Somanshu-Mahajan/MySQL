@@ -1,0 +1,9 @@
+1. Data Definition Language (DDL) - CREATE, DROP, ALTER, TRUNCATE
+
+2. Data Manipulation Language (DML) - INSERT, UPDATE, DELETE, CALL, EXPLAIN CALL
+
+3. Data Query Language (DQL) - SELECT
+
+4. Data Control Language (DCL) - GRANT, REVOKE
+
+5. Transaction Control Language (TCL) - COMMIT, SAVEPOINT, ROLLBACK, SET Transaction, SET Constraint
