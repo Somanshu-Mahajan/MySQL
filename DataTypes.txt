@@ -1,0 +1,20 @@
+1. Numeric Datatypes - BIGINT (-2^63 to 2^63 - 1)
+                     - INT (-2^31 to 2^31 - 1)
+                     - SMALLINT (-2^15 to 2^15 - 1)
+                     - TINYINT (0 to 2^8 - 1)
+                     - BIT (0 and 1)
+                     - DECIMAL (-10^38 + 1 to 10^38 - 1)
+                     - MONEY (-2^63 to 2^63 - 1)
+                     - SMALLMONEY (-2^31 to 2^31 - 1)
+                     - FLOAT (-1.79E+308 to 1.79E+308)
+                     - DOUBLE (-3.40E+38 to 3.40E+38)
+
+2. String Datatypes - CHAR (MAXLENGTH - 8000) -- FIXED LENGTH NON UNICODE
+                    - VARCHAR (MAXLENGTH - 8000) -- VARIABLE LENGTH NON UNICODE
+                    - TEXT (MAXLENGTH -  2,127,483,647) -- NON UNICODE
+                    - NCHAR (MAXLENGTH - 4000) -- FIXED LENGTH UNICODE
+                    - NVARCHAR (MAXLENGTH - 4000) -- VARIABLE LENGTH UNICODE
+
+3. Date and Time - DATE
+                 - TIME
+                 - DATETIME
