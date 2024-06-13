@@ -7,3 +7,5 @@
 4. Bitwise - &, |, ^, ~, <<(Left shift), >>(right shift)
 
 5. Compound - +=, -=, *=, /=, %=, &=, |=, ^=
+
+6. Special - ALL, ANY, BETWEEN, IN, EXISTS, SOME, UNIQUE
