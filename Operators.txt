@@ -1,0 +1,9 @@
+1. Arithmetic - +, -, *, /, %
+
+2. Comparison - =, <, >, <=, >=, <>(Not equal to)
+
+3. Logical - AND, OR, NOT
+
+4. Bitwise - &, |, ^, ~, <<(Left shift), >>(right shift)
+
+5. Compound - +=, -=, *=, /=, %=, &=, |=, ^=
