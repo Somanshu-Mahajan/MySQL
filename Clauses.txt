@@ -1,0 +1,5 @@
+1. WHERE - to specify a condition
+
+2. ORDER BY - to arrange in ascendding and descending order
+
+3. GROUP BY - to sort similar data into groups
