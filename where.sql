@@ -52,4 +52,5 @@ select salary as total_salary from employee;
 select * from employee where name like "M%";
 -> % for characters
 -> _ for numbers 
+-> these are wildcard characters
 
