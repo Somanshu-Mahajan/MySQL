@@ -1,5 +1,5 @@
 create table employee(
-	id int unique not null,
+    id int unique not null,
     name varchar(45) null,
     age int null,
     designation varchar(75) null,
