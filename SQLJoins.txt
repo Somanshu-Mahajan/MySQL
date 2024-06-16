@@ -1,0 +1,10 @@
+Joins are used for joining two table have similar columns,
+Types of joins are : 
+
+1. Inner Join - It returns a new table combining have only matching values on both table.
+
+2. Outer Join -  It returns a nw table with all values from both table.
+
+3. Left Join - It returns a new table with all rows of left table and only matching rows of right table.
+
+4. Right Join - It returns a new table with all rows of right table and only matching rows of left table.
