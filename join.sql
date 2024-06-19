@@ -1,5 +1,5 @@
 create table employee (
-	empid int not null,
+    empid int not null,
     empname varchar(45) null,
     age int null,
     designation varchar(30) null,
@@ -20,7 +20,7 @@ values (1011, "rahul", 26, "data analyst", "hyderabad", 40000, "2022-01-22", 16)
        (1017, "ajay", 28, "General Manager", "vizag", 60000, "2018-05-19", 12);
 
 create table department(
-	deptid int not null,
+    deptid int not null,
     deptname varchar(20) null,
     primary key(deptid)
 );
@@ -29,7 +29,7 @@ insert into department (deptid, deptname)
 values (11, "IT"), (12, "HR"), (13, "Finance"), (14, "Sales & Marketing"), (15, "Operations");
 
 create table projects(
-	projectid int not null,
+    projectid int not null,
     empid int not null,
     projectname varchar(45) null,
     projectmanager varchar(10) null,
@@ -43,7 +43,7 @@ values (110, 1015, "ERP System", "vinay"), (210, 1017, "Employee Assitance Progr
        (710, 1015, "Image Encryption", "bhavya");
 
 create table customer(
-	custid int not null,
+    custid int not null,
     custname varchar(45) null,
     age int null,
     address varchar(45) null,
@@ -53,14 +53,14 @@ create table customer(
 
 insert into customer (custid, custname, age, address, phone)
 values (10110, "rahul", 25, "hyderabad", 798561549),
-	   (10120, "kavya", 28, "banglore", 896512489),
+       (10120, "kavya", 28, "banglore", 896512489),
        (10130, "ajay", 24, "mumbai", 965320278),
        (10140, "divya", 25, "banglore", 987532154),
        (10150, "adarsh", 27, "chennai", 862574123),
        (10170, "pranay", 28, "pune", 653258797);
        
 create table orders (
-	productid int not null,
+    productid int not null,
     custid int not null,
     productname varchar(45) null,
     quantity int null,
@@ -70,7 +70,7 @@ create table orders (
 
 insert into orders (productid, custid, productname, quantity, price, purchasedate)
 values (1, 10120, "AC", 1, 40000, "2021-07-11"),
-	   (2, 10130, "TV", 1, 75000, "2022-03-25"),
+       (2, 10130, "TV", 1, 75000, "2022-03-25"),
        (3, 10110, "phone", 2, 45000, "2019-10-22"),
        (4, 10140, "cooker", 1, 20000, "2020-07-19"),
        (5, 10160, "car", 1, 600000, "2020-04-24"),
