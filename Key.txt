@@ -1,0 +1,31 @@
+Key is a attribute which helps you identify a row in a table.
+
+It uniquely identifies a row in table.
+
+It creates constraints that can be used to enforce data integrity.
+
+Helps to establish relationship between the user and the table.
+
+Types of key : 
+1. Primary key : This column accepts unique values to identify a row.
+                 Only one primary key exists in a table.
+                 It cannot be null.
+
+2. Candidate key : Defined as a set of one or more columns that can identify a row or tuple uniquely.
+                   Can have multiple candidate keys.
+                   It can contain null values.
+
+3. Alternate key : This are subsets of candidate keys which can also identify table which are not chosen as primary key.
+
+4. Super key : It is a combination of all possible attributes which can uniquely identify a row.
+               Super key is a superset of primary, candidate, alternate keys.
+               with less number of attributes it is a candidate key.
+
+5. Foreigh key : It is the set of attributes which refers to primary key of the another table.
+                 The table with foreign key is child table and one with primary key is parent table.
+                 Can have multiple foreign keys and contain null values.
+
+6. Unique key : 
+
+7. Composite key : 
+
