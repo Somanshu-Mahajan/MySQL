@@ -40,3 +40,6 @@ alter table customer modify column aadhar varchar(12);
 alter table customer alter column aadhar set default 'xxxxxxxxxxxx';
 -> drop column
 alter table customer drop column aadhar;
+
+->adding default values
+alter table customer modify product default 'Laptop';
