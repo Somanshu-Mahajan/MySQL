@@ -1,0 +1,19 @@
+Instead of writing the same long query all the time we make a view out of it.
+Syntax:
+CREATE VIEW view_name AS
+sql_query
+
+View is actually a virtual table not a real table. Update, Delete and Insert can be performed unless your query do not contain
+1. Aggregate functions
+2. Distinct
+3. Joins
+4. Group By
+5. Having
+7. Union
+8. Subquery (If it is not non-dependant Update and Delete can be performed)
+
+If you want to alter the table then the syntax is:
+1. CREATE OR REPLACE  VIEW view_name AS
+   sql_query
+2. ALTER VIEW view_name AS
+   sql_query
